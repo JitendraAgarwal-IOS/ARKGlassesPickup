@@ -17,6 +17,8 @@
 		4797533D258BA80600F48353 /* GlassSelectionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797533C258BA80600F48353 /* GlassSelectionDemoUITests.swift */; };
 		4797534E258BA82A00F48353 /* GlassSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797534D258BA82A00F48353 /* GlassSelectionCell.swift */; };
 		47975353258BA83300F48353 /* GlassSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47975352258BA83300F48353 /* GlassSelectionCell.xib */; };
+		47F96E13258CD834007903A7 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F96E12258CD834007903A7 /* img3.png */; };
+		47F96E18258CD845007903A7 /* imag1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F96E17258CD845007903A7 /* imag1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4797533E258BA80600F48353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4797534D258BA82A00F48353 /* GlassSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSelectionCell.swift; sourceTree = "<group>"; };
 		47975352258BA83300F48353 /* GlassSelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GlassSelectionCell.xib; sourceTree = "<group>"; };
+		47F96E12258CD834007903A7 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
+		47F96E17258CD845007903A7 /* imag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imag1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		47975319258BA80500F48353 /* GlassSelectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				47F96E11258CD75B007903A7 /* Images */,
 				4797531A258BA80500F48353 /* AppDelegate.swift */,
 				4797531C258BA80500F48353 /* SceneDelegate.swift */,
 				4797531E258BA80500F48353 /* SeenView.swift */,
@@ -132,6 +137,15 @@
 				4797533E258BA80600F48353 /* Info.plist */,
 			);
 			path = GlassSelectionDemoUITests;
+			sourceTree = "<group>";
+		};
+		47F96E11258CD75B007903A7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				47F96E17258CD845007903A7 /* imag1.png */,
+				47F96E12258CD834007903A7 /* img3.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				47975353258BA83300F48353 /* GlassSelectionCell.xib in Resources */,
+				47F96E13258CD834007903A7 /* img3.png in Resources */,
 				47975327258BA80600F48353 /* LaunchScreen.storyboard in Resources */,
 				47975324258BA80600F48353 /* Assets.xcassets in Resources */,
 				47975322258BA80500F48353 /* Main.storyboard in Resources */,
+				47F96E18258CD845007903A7 /* imag1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
